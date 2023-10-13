@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option csharp_namespace = "GprcClient";
+
+service PrimeNumbers {
+	rpc GetPrimeNumbers(PrimeNumberRequestDTO)
+	returns (PrimeNumberResponseDTO);
+}
+
+message Result {
+	int64 Number = 1;
+	bool IsPrime = 2;
+}
+
+message Error {
+	string Message = 1;
+}
+
+message PrimeNumberRequestDTO {
+	int64 Id = 1;
+	int64 Number = 2;
+	int64 TimeStamp = 3;
+}
+message PrimeNumberResponseDTO {
+   Result Result = 1;
+   bool IsSuccessfull = 2;
+   Error Error = 3;
+   double RoundTripTime = 4;
+}

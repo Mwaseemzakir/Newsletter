@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefitClientDemo.API", "RefitClientDemo\RefitClientDemo.API.csproj", "{2BDFFE22-2D7A-4970-8E5E-D632BE60BB1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Client", "ConsoleApp\ConsoleApp.Client.csproj", "{E1F79501-0F24-4504-949D-00043E7C4108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOs", "DTOs\DTOs.csproj", "{EFA17A71-5CE2-42A5-B7DC-8E1DA29AAEFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BDFFE22-2D7A-4970-8E5E-D632BE60BB1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BDFFE22-2D7A-4970-8E5E-D632BE60BB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BDFFE22-2D7A-4970-8E5E-D632BE60BB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BDFFE22-2D7A-4970-8E5E-D632BE60BB1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1F79501-0F24-4504-949D-00043E7C4108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1F79501-0F24-4504-949D-00043E7C4108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1F79501-0F24-4504-949D-00043E7C4108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1F79501-0F24-4504-949D-00043E7C4108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFA17A71-5CE2-42A5-B7DC-8E1DA29AAEFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA17A71-5CE2-42A5-B7DC-8E1DA29AAEFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA17A71-5CE2-42A5-B7DC-8E1DA29AAEFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA17A71-5CE2-42A5-B7DC-8E1DA29AAEFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1D2BF1C-FD63-442E-A7E2-1DB2173F5A9C}
+	EndGlobalSection
+EndGlobal
