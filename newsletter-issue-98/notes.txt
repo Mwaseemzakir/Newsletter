@@ -1,0 +1,2 @@
+Dummy notes file for newsletter-issue-98.
+Created to verify the publish.sh workflow copies the whole folder.
