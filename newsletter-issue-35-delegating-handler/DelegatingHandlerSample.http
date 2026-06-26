@@ -1,0 +1,5 @@
+@host = http://localhost:5283
+
+### Get dog facts (the outgoing request passes through the LoggingHandler delegating handler)
+GET {{host}}/Dogs
+Accept: application/json

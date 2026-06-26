@@ -20,8 +20,11 @@ I've extensively covered 70+ .NET topics with accompanying code, consolidating v
 
 Most recent issue first. **Read** links to the Substack issue; **Code** links to the sample project in this repo (where one exists).
 
+> **Trying the samples:** every code project ships ready-to-run requests for all of its endpoints — a `.http` file (open it in Visual Studio, the VS Code *REST Client* extension, or Rider) and a `curl.md` with equivalent cURL commands you can paste into Postman via **Import → Raw text** or run from a terminal. The gRPC sample includes a `grpcurl.md` instead, since it isn't a REST API.
+
 | # | Issue | Read | Code |
 |---|-------|------|------|
+| 76 | Build AI Search in .NET using PostgreSQL + Vector Search + RAG | — | [Code](newsletter-issue-76-vector-search-rag) |
 | 74 | Wolverine as Mediator in .NET | [Read](https://mwaseemzakir.substack.com/p/wolverine-as-mediator-in-net) | — |
 | 73 | Introduction to Blazor | [Read](https://mwaseemzakir.substack.com/p/introduction-to-blazor) | — |
 | 72 | Keywords to Remember in C# | [Read](https://mwaseemzakir.substack.com/p/keywords-to-remember-in-c) | — |

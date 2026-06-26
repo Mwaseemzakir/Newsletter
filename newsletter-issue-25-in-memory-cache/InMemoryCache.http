@@ -1,0 +1,13 @@
+@host = http://localhost:5206
+
+### Check whether a number is prime (result is cached after first call)
+GET {{host}}/PrimeNumbers/97
+Accept: application/json
+
+### Call again with the same number to hit the cache
+GET {{host}}/PrimeNumbers/97
+Accept: application/json
+
+### Try a non-prime number
+GET {{host}}/PrimeNumbers/100
+Accept: application/json

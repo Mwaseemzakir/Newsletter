@@ -1,0 +1,21 @@
+@host = http://localhost:5111
+# The key below matches the "ApiKey" value in appsettings.json — change both together.
+@apiKey = 3DBF7CF8-64CA-43C5-8840-9EA60E5A5A75
+
+### GET /Student — protected by the ApiKey header (returns 401 without it)
+GET {{host}}/Student
+ApiKey: {{apiKey}}
+
+### GET /Student without the key — returns 401 Unauthorized
+GET {{host}}/Student
+
+### GET /Student/{id} — this action is not decorated with the filter
+GET {{host}}/Student/5
+
+### POST /Student
+POST {{host}}/Student
+ApiKey: {{apiKey}}
+
+### PUT /Student/{id}
+PUT {{host}}/Student/5
+ApiKey: {{apiKey}}

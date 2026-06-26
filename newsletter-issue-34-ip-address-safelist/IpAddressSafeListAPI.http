@@ -1,0 +1,7 @@
+@host = http://localhost:5225
+
+### Get weather forecast
+# Access is allowed only from IPs in the safelist (configured in appsettings.json).
+# From a non-allowed IP this returns 401/403; from localhost it depends on your safelist config.
+GET {{host}}/WeatherForecast
+Accept: application/json

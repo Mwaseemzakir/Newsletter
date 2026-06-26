@@ -1,0 +1,36 @@
+@host = http://localhost:5244
+
+############################################
+# Minimal API endpoints (mapped in UserEndPoint)
+############################################
+
+### Get user
+GET {{host}}/GetUser
+
+### Create a user (values passed as query parameters)
+POST {{host}}/CreateUser?RollNo=1&UserName=Waseem
+
+### Update a user
+PUT {{host}}/UpdateUser?RollNo=1&UserName=Ali
+
+### Delete a user
+DELETE {{host}}/DeleteUser?RollNo=1
+
+### Get paginated users
+GET {{host}}/GetUsers?page=1&pageSize=10
+
+############################################
+# Equivalent controller-based endpoints
+############################################
+
+### Get users (controller)
+GET {{host}}/Users
+
+### Create a user (controller)
+POST {{host}}/Users?rollNo=1&userName=Waseem
+
+### Update a user (controller)
+PUT {{host}}/Users?rollNo=1&userName=Ali
+
+### Delete a user (controller)
+DELETE {{host}}/Users?rollNo=1

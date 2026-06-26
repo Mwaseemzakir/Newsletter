@@ -1,0 +1,14 @@
+@host = http://localhost:5105
+
+### Get all users
+GET {{host}}/api/user/
+Accept: application/json
+
+### Add a user
+POST {{host}}/api/user/
+Content-Type: application/json
+
+{
+  "id": "f8c3de3d-1fea-4d7c-a8b0-29f63c4c3454",
+  "name": "Muhammad Waseem"
+}

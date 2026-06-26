@@ -1,0 +1,38 @@
+@host = http://localhost:5131
+
+### Get all newsletters
+GET {{host}}/Newsletter
+Accept: application/json
+
+### Get a newsletter by id
+GET {{host}}/Newsletter/1
+Accept: application/json
+
+### Create a newsletter
+POST {{host}}/Newsletter
+Content-Type: application/json
+
+{
+  "type": "Tech",
+  "name": ".NET Weekly",
+  "url": "https://mwaseemzakir.substack.com",
+  "about": "Weekly .NET tips and tutorials."
+}
+
+### Update a newsletter
+PUT {{host}}/Newsletter/1
+Content-Type: application/json
+
+{
+  "type": "Tech",
+  "name": ".NET Weekly (updated)",
+  "url": "https://mwaseemzakir.substack.com",
+  "about": "Updated description."
+}
+
+### Delete a newsletter
+DELETE {{host}}/Newsletter/1
+
+### Get the sample weather forecast
+GET {{host}}/WeatherForecast
+Accept: application/json

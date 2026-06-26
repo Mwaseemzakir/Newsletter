@@ -1,0 +1,16 @@
+@host = http://localhost:5074
+
+### Send an email (configure SMTP settings in appsettings.json first)
+POST {{host}}/Email
+Content-Type: application/json
+
+{
+  "to": "recipient@example.com",
+  "subject": "Hello from MailKit",
+  "plainText": "This is the plain-text body.",
+  "html": "<h1>This is the HTML body.</h1>"
+}
+
+### Get the sample weather forecast
+GET {{host}}/WeatherForecast
+Accept: application/json

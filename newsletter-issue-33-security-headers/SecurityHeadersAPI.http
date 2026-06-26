@@ -1,0 +1,6 @@
+@host = http://localhost:5118
+
+### Get weather forecast — inspect the response headers to see the security headers applied
+# Look for headers such as X-Content-Type-Options, X-Frame-Options, etc.
+GET {{host}}/WeatherForecast
+Accept: application/json

@@ -1,0 +1,35 @@
+@host = http://localhost:5110
+
+### Get all students
+GET {{host}}/student
+Accept: application/json
+
+### Add a valid student
+POST {{host}}/student
+Content-Type: application/json
+
+{
+  "id": 1,
+  "age": 22,
+  "email": "waseem@example.com",
+  "firstName": "Muhammad",
+  "lastName": "Waseem",
+  "phoneNumber": "+1234567890"
+}
+
+### Add an invalid student (triggers validation errors)
+POST {{host}}/student
+Content-Type: application/json
+
+{
+  "id": 0,
+  "age": 0,
+  "email": "not-an-email",
+  "firstName": "",
+  "lastName": "",
+  "phoneNumber": ""
+}
+
+### Get the sample weather forecast
+GET {{host}}/WeatherForecast
+Accept: application/json
