@@ -1,13 +1,13 @@
 ﻿using MailKit.Net.Smtp;
 using MailKit.Security;
-using MailKit.Configurations;
-using MailKit.DTOs;
-using MailKit.Services.Interfaces;
+using MailKitSample.Configurations;
+using MailKitSample.DTOs;
+using MailKitSample.Services.Interfaces;
 using Microsoft.Extensions.Options;
 using MimeKit;
 using MimeKit.Text;
 
-namespace MailKit.Services
+namespace MailKitSample.Services
 {
     public class EmailService : IEmailService
     {

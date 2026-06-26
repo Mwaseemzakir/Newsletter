@@ -1,7 +1,7 @@
-﻿using DelegatingHandler.Models;
+﻿using DelegatingHandlerSample.Models;
 using Refit;
 
-namespace DelegatingHandler.Services;
+namespace DelegatingHandlerSample.Services;
 public interface IDogsAPI
 {
 	[Get("/facts")]

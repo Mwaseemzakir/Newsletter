@@ -1,9 +1,9 @@
 ﻿using FluentValidation;
-using FluentValidation.DTOs;
-using FluentValidation.Extensions;
+using FluentValidationSample.DTOs;
+using FluentValidationSample.Extensions;
 using Microsoft.AspNetCore.Mvc;
 
-namespace FluentValidation.Controllers
+namespace FluentValidationSample.Controllers
 {
     [ApiController]
     [Route("student")]

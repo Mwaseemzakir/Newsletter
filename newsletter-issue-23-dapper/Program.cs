@@ -1,8 +1,8 @@
-using Dapper.Contexts;
-using Dapper.Contracts;
-using Dapper.Repositories;
+using DapperSample.Contexts;
+using DapperSample.Contracts;
+using DapperSample.Repositories;
 
-namespace Dapper;
+namespace DapperSample;
 public class Program
 {
     public static void Main(string[] args)

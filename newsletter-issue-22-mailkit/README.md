@@ -1,4 +1,4 @@
-# MailKitDemo
+# MailKit
 This repository contains code of how to send Emails using Nuget Package MailKit and Gmail
 
 - Install MailKit Nuget Package

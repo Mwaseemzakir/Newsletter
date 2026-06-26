@@ -1,4 +1,4 @@
-namespace MailKit
+namespace MailKitSample
 {
     public class WeatherForecast
     {

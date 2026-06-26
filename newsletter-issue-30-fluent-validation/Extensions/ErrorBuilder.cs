@@ -1,7 +1,7 @@
 ﻿using FluentValidation.Results;
 using System.Text;
 
-namespace FluentValidation.Extensions
+namespace FluentValidationSample.Extensions
 {
     public static class ErrorBuilder
     {

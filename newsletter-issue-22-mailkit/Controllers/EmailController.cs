@@ -1,8 +1,8 @@
-﻿using MailKit.DTOs;
-using MailKit.Services.Interfaces;
+﻿using MailKitSample.DTOs;
+using MailKitSample.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MailKit.Controllers
+namespace MailKitSample.Controllers
 {
     [ApiController]
     [Route("[controller]")]

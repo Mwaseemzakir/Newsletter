@@ -1,4 +1,4 @@
-﻿namespace Dapper.DTOs
+﻿namespace DapperSample.DTOs
 {
     public record NewsletterDTO
     {

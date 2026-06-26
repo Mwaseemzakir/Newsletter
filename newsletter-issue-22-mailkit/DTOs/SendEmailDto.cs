@@ -1,4 +1,4 @@
-﻿namespace MailKit.DTOs
+﻿namespace MailKitSample.DTOs
 {
     public class SendEmailDto
     {

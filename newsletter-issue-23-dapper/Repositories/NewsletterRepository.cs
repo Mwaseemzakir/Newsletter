@@ -1,11 +1,11 @@
 ﻿using Dapper;
-using Dapper.Contexts;
-using Dapper.Contracts;
-using Dapper.DTOs;
-using Dapper.Entities;
+using DapperSample.Contexts;
+using DapperSample.Contracts;
+using DapperSample.DTOs;
+using DapperSample.Entities;
 using System.Data;
 
-namespace Dapper.Repositories
+namespace DapperSample.Repositories
 {
     public class NewsletterRepository : INewsletterRepository
     {

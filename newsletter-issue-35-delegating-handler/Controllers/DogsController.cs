@@ -1,8 +1,8 @@
-﻿using DelegatingHandler.Models;
-using DelegatingHandler.Services;
+﻿using DelegatingHandlerSample.Models;
+using DelegatingHandlerSample.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DelegatingHandler.Controllers;
+namespace DelegatingHandlerSample.Controllers;
 
 [ApiController]
 [Route("[controller]")]

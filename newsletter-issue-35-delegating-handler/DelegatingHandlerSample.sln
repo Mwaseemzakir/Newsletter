@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatingHandler", "DelegatingHandler.csproj", "{F0F240A7-91C8-4B67-8E6A-0FCE3EB03C79}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatingHandlerSample", "DelegatingHandlerSample.csproj", "{F0F240A7-91C8-4B67-8E6A-0FCE3EB03C79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

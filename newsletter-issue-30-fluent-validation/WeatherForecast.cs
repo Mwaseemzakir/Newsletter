@@ -1,4 +1,4 @@
-namespace FluentValidation
+namespace FluentValidationSample
 {
     public class WeatherForecast
     {

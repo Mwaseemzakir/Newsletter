@@ -1,8 +1,8 @@
-using DelegatingHandler.DelegateHandlers;
-using DelegatingHandler.Services;
+using DelegatingHandlerSample.DelegateHandlers;
+using DelegatingHandlerSample.Services;
 using Refit;
 
-namespace DelegatingHandler;
+namespace DelegatingHandlerSample;
 public class Program
 {
 	public static void Main(string[] args)

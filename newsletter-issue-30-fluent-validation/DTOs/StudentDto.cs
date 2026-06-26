@@ -1,4 +1,4 @@
-﻿namespace FluentValidation.DTOs
+﻿namespace FluentValidationSample.DTOs
 {
     public class StudentDto
     {

@@ -1,6 +1,6 @@
-﻿using MailKit.DTOs;
+﻿using MailKitSample.DTOs;
 
-namespace MailKit.Services.Interfaces
+namespace MailKitSample.Services.Interfaces
 {
     public interface IEmailService
     {

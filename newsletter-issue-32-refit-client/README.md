@@ -1,2 +1,2 @@
-# RefitClientDemo
-This project contains demo code of how to work with Refit Cleint
+# RefitClient
+This project contains code of how to work with Refit Cleint

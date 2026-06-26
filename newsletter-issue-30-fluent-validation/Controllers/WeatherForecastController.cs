@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace FluentValidation.Controllers
+namespace FluentValidationSample.Controllers
 {
     [ApiController]
     [Route("[controller]")]

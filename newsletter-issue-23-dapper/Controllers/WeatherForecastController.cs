@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Dapper.Controllers
+namespace DapperSample.Controllers
 {
     [ApiController]
     [Route("[controller]")]

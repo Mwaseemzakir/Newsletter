@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
-using FluentValidation.DTOs;
+using FluentValidationSample.DTOs;
 
-namespace FluentValidation.Validators
+namespace FluentValidationSample.Validators
 {
     public class StudentValidator : AbstractValidator<StudentDto>
     {

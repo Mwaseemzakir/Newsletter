@@ -1,4 +1,4 @@
-﻿namespace DelegatingHandler.Models;
+﻿namespace DelegatingHandlerSample.Models;
 public sealed class GetDogFactsResponse
 {
 	public List<string> Facts { get; set; } = new();

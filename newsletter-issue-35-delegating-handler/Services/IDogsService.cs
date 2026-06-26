@@ -1,6 +1,6 @@
-﻿using DelegatingHandler.Models;
+﻿using DelegatingHandlerSample.Models;
 
-namespace DelegatingHandler.Services;
+namespace DelegatingHandlerSample.Services;
 public interface IDogsService
 {
 	Task<GetDogFactsResponse> GetDogFactsAsync(CancellationToken cancellationToken = default);

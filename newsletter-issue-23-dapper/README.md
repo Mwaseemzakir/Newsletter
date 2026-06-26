@@ -1,4 +1,4 @@
-# DapperDemo
+# Dapper
 This Github repository contains code for how to use Dapper in .NET Web API along side CRUD operations
 
 # Install Packages

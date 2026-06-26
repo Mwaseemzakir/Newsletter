@@ -1,4 +1,4 @@
-﻿namespace MailKit.Configurations
+﻿namespace MailKitSample.Configurations
 {
     public class EmailConfiguration
     {

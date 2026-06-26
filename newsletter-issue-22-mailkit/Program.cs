@@ -1,8 +1,8 @@
-using MailKit.Configurations;
-using MailKit.Services;
-using MailKit.Services.Interfaces;
+using MailKitSample.Configurations;
+using MailKitSample.Services;
+using MailKitSample.Services.Interfaces;
 
-namespace MailKit
+namespace MailKitSample
 {
     public class Program
     {

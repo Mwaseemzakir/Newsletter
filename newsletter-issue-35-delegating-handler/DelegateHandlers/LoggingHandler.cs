@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace DelegatingHandler.DelegateHandlers;
+namespace DelegatingHandlerSample.DelegateHandlers;
 public sealed class LoggingHandler : DelegatingHandler
 {
 	private readonly ILogger<LoggingHandler> _logger;

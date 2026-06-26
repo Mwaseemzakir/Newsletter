@@ -1,4 +1,4 @@
-﻿namespace Dapper.Entities
+﻿namespace DapperSample.Entities
 {
     public class Newsletter
     {

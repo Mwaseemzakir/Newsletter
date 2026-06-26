@@ -1,4 +1,4 @@
-# GrpcDemo
+# Grpc
 
 # Case scenerio
 This is a gRPC application where client is sending 10K requests to server each second , each request contains following items

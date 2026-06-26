@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace MailKit.Controllers
+namespace MailKitSample.Controllers
 {
     [ApiController]
     [Route("[controller]")]

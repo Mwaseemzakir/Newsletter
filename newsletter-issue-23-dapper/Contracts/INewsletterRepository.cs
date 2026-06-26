@@ -1,7 +1,7 @@
-﻿using Dapper.DTOs;
-using Dapper.Entities;
+﻿using DapperSample.DTOs;
+using DapperSample.Entities;
 
-namespace Dapper.Contracts
+namespace DapperSample.Contracts
 {
     public interface INewsletterRepository
     {
