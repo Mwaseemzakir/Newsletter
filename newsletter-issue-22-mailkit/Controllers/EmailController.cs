@@ -1,0 +1,23 @@
+﻿using MailKit.DTOs;
+using MailKit.Services.Interfaces;
+using Microsoft.AspNetCore.Mvc;
+
+namespace MailKit.Controllers
+{
+    [ApiController]
+    [Route("[controller]")]
+    public class EmailController : ControllerBase
+    {
+        private IEmailService _emailService;
+        public EmailController(IEmailService emailService)
+        {
+            _emailService = emailService;
+        }
+
+        [HttpPost(Name = "SendEmail")]
+        public void SendEmail(SendEmailDto emailDto)
+        {
+            _emailService.SendEmail(emailDto);
+        }
+    }
+}
