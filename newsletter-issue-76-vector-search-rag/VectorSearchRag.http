@@ -1,0 +1,21 @@
+@host = http://localhost:5076
+
+### Which providers are active (Gemini vs local fallback)
+GET {{host}}/api/blogs/info
+Accept: application/json
+
+### Browse all blogs (no embeddings)
+GET {{host}}/api/blogs
+Accept: application/json
+
+### NORMAL search (SQL ILIKE) — "secure my APIs" returns nothing, no literal match
+GET {{host}}/api/blogs/search/normal?q=secure my APIs
+Accept: application/json
+
+### VECTOR search — same query surfaces JWT / API Key Authentication blogs
+GET {{host}}/api/blogs/search/vector?q=secure my APIs&take=5
+Accept: application/json
+
+### RAG — retrieve relevant blogs by vector search, then answer with the LLM
+GET {{host}}/api/blogs/ask?q=How do I secure my APIs?&take=5
+Accept: application/json

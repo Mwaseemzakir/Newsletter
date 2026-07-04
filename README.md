@@ -24,6 +24,7 @@ Most recent issue first. **Read** links to the Substack issue; **Code** links to
 
 | # | Issue | Read | Code |
 |---|-------|------|------|
+| 76 | Build AI Search in .NET using PostgreSQL + Vector Search + RAG | [Read](https://mwaseemzakir.substack.com/p/build-ai-search-in-net-using-postgres) | [Code](newsletter-issue-76-vector-search-rag) |
 | 74 | Wolverine as Mediator in .NET | [Read](https://mwaseemzakir.substack.com/p/wolverine-as-mediator-in-net) | — |
 | 73 | Introduction to Blazor | [Read](https://mwaseemzakir.substack.com/p/introduction-to-blazor) | — |
 | 72 | Keywords to Remember in C# | [Read](https://mwaseemzakir.substack.com/p/keywords-to-remember-in-c) | — |
