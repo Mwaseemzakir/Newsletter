@@ -1,0 +1,24 @@
+@host = http://localhost:5077
+
+### Register a user (writes the user + a WelcomeEmailRequested outbox row in one transaction)
+POST {{host}}/api/users
+Content-Type: application/json
+
+{
+  "email": "alice@demo.dev"
+}
+
+### Register another
+POST {{host}}/api/users
+Content-Type: application/json
+
+{
+  "email": "bob@demo.dev"
+}
+
+### List users
+GET {{host}}/api/users
+
+### Outbox messages — right after a register ProcessedAt is null;
+### within ~10s the background job stamps it (watch the console log the "welcome email").
+GET {{host}}/api/outbox
