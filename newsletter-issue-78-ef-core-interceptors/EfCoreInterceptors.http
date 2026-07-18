@@ -1,0 +1,31 @@
+@host = http://localhost:5078
+
+### Create a blog (audited as alice, raises BlogCreatedEvent)
+POST {{host}}/api/blogs
+Content-Type: application/json
+X-User: alice@demo.dev
+
+{
+  "title": "Interceptors in EF Core"
+}
+
+### Create another (falls back to the demo user)
+POST {{host}}/api/blogs
+Content-Type: application/json
+
+{
+  "title": "Soft Delete Done Right"
+}
+
+### List blogs (soft-deleted rows hidden)
+GET {{host}}/api/blogs
+
+### Soft delete a blog (replace the id; audited as carol)
+DELETE {{host}}/api/blogs/00000000-0000-0000-0000-000000000000
+X-User: carol@demo.dev
+
+### List including deleted (IsDeleted=true rows still present)
+GET {{host}}/api/blogs/with-deleted
+
+### Outbox messages written by the OutboxInterceptor
+GET {{host}}/api/outbox
